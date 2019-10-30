@@ -22,8 +22,6 @@ Angel Martinez
 9. The application will allow the addition of new burgers, changing the status of a burger to "devoured" and deleting burgers.
 
 
-## Contributing to the project##
 
-* Feel free to create a new branch and edit/add to the project.
 
 
