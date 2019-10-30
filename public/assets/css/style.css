@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: yellow;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    border: dashed black 5px;
+}
+
+ul {
+    border: solid black 2px;
+}
+
+li {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    height: 45px;
+}
+
+.devour {
+    font-size: 16px;
+}
+
+.delete {
+    font-size: 16px;
+}
+
+
+li:nth-child(odd) {
+    background-color: gray;
+    color: yellow;
+}
+
+li:first-child {
+    background-color: black;
+    color: yellow;
+}
+
+#form-row {
+    border: solid black 2px;
+}
+
+form {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+    <head>
+        <title> </title>
+        <meta charset='UTF-8'>
+        <link rel='stylesheet' type= 'text/css' href='assets/css/reset.css'>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+        <script src='http://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=' crossorigin='anonymous'></script>
+        <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
+    </head>
+    <body>
+        <div class='container'>
+            <div class='row'>
+                <div class='col'>
+                    <h1>Bobs Burgers</h1>
+                </div>
+            </div>
+        
+            {{{ body }}}
+
+            <div class='row' id='form-row'>
+                <div class='col'>
+                    <form class='add-burger'>
+                        <div class='form-group'>
+                            <label for='burger'>Burger Name:</label>
+                            <input type='text' id='burger' name='name' placeholder='Enter a burger!'>
+                        </div>
+
+                        <button type='submit'>Add Burger</button>
+                    </form>
+                </div>
+            </div> 
+
+
+        </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script>
+        <script src='assets/javascript/clientBurger.js'></script>
+    </body>
+</html>
